@@ -44,7 +44,7 @@ docker-kibana
 
 - build:
 
-        git clone https://github.com/arcus-io/docker-kibana.git
+        git clone git@github.com:vdutat/docker-kibana.git
         docker build -t kibana .
 
 - run:
